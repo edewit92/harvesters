@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the .npy file
-data = np.load('image_data.npy')
+data = np.load('images/image_data_20241003_161240.npy')
 image = data[50]
 
 # Extract the R, G, B channels
